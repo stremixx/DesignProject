@@ -2,6 +2,30 @@ body {
     background-color: #000000;
 }
 
-h1 {
+main {
+    text-align: center;
+    padding: 1.5rem 1rem;
+}
+
+.title {
     color: #ffffff;
+    font-size: 2.5rem;
+    margin-bottom: 0.75rem;
+}
+
+h2 {
+    color: #cccccc;
+    font-size: 1.25rem;
+    font-weight: normal;
+    margin-bottom: 1.5rem;
+}
+
+img {
+    max-width: 85%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.computer {
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1);
 }
