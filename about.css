@@ -1,7 +1,78 @@
-body {
-    background-color: #000000;
+.about-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+ 
+.about-container h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+    text-align: center;
 }
 
-h1 {
+.about-container .tagline {
+    font-size: 1.5rem;
+    color: #86868b;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.about-section {
+    margin-bottom: 3rem;
+}
+
+.about-section h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #d2d2d7;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #424245;
+    padding-bottom: 0.5rem;
+}
+
+.about-section p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #cccccc;
+}
+
+.team-section h2 {
+    text-align: center;
+    border-bottom: none;
+    margin-bottom: 2rem;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2.5rem;
+    text-align: center;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border: 3px solid #424245;
+    transition: transform 0.3s ease;
+}
+
+.team-member img:hover {
+    transform: scale(1.05);
+}
+
+.team-member h3 {
+    font-size: 1.25rem;
+    font-weight: 500;
     color: #ffffff;
+    margin-bottom: 0.25rem;
+}
+
+.team-member p {
+    font-size: 1rem;
+    color: #86868b;
 }
