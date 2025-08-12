@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     // Select all elements you want to animate
-    const animatedElements = document.querySelectorAll('.product-showcase');
+    const animatedElements = document.querySelectorAll('.product-showcase, .about-section');
 
     if (animatedElements.length > 0) {
         const observer = new IntersectionObserver((entries, observer) => {

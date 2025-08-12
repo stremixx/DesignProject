@@ -21,6 +21,15 @@
 
 .about-section {
     margin-bottom: 3rem;
+    /* Animation starting state: invisible and slightly shifted down */
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.about-section.is-visible {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .about-section h2 {
